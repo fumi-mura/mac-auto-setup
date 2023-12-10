@@ -16,7 +16,7 @@ $ brew link awscli@1
 $ aws configure
 AWS Access Key ID [None]: [Access key ID]
 AWS Secret Access Key [None]: [Secret access key]
-Default region name [None]: [Your region]
+Default region name [None]: [your region]
 Default output format [None]:
 ```
 
@@ -35,10 +35,11 @@ aws_secret_access_key = {Secret access key}
 ```sh
 $ vi ~/.aws/config
 [default]
-region = {Your region}
+region = {your region}
 ```
 
-use case
+## use case
+
 ```sh
 $ aws s3 ls --profile accountA
 ```
