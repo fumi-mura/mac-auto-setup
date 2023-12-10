@@ -37,3 +37,8 @@ $ vi ~/.aws/config
 [default]
 region = {Your region}
 ```
+
+use case
+```sh
+$ aws s3 ls --profile accountA
+```
