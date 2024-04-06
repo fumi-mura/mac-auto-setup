@@ -1,5 +1,5 @@
 #!/bin/sh
 
-mkdir ~/screenshot
+mkdir ~/ScreenShot
 
-defaults write com.apple.screencapture location ~/screenshot/;killall SystemUIServer
+defaults write com.apple.screencapture location ~/ScreenShot/;killall SystemUIServer
