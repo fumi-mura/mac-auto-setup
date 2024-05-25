@@ -63,3 +63,4 @@ $ sh setup_all.sh
 - Requires manual installation
   - Magnet
   - Spark
+  - RunCat
