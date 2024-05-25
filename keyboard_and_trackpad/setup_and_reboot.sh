@@ -11,6 +11,7 @@ defaults write -g InitialKeyRepeat -int 15
 # trackpad
 
 # Tap to allow clicks.
+defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -int 1
 
 # Change cursor movement speed.
