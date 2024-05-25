@@ -3,9 +3,13 @@
 # get directories without hidden
 dirs=($(ls -d */))
 
-# execute setup.sh directory
-for dir in $dirs
+# execute setup.sh in each directory
+for dir in "${dirs[@]}"
 do
-  chmod +x ./"$dir"setup.sh
-  ./"$dir"setup.sh
+  dir=${dir%/}
+  if [ -x "${dir}/setup.sh" ]; then
+    (cd "${zdir}" && ./setup.sh)
+  else
+    echo "Executable setup.sh not found in $dir"
+  fi
 done
