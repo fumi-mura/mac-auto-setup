@@ -20,9 +20,6 @@ $ brew install git
 $ cd ~
 $ touch .zshrc
 $ echo "export PATH=/usr/local/bin/git:\$PATH" >> ~/.zshrc
-```
-
-```sh
 $ source ~/.zshrc
 ```
 
