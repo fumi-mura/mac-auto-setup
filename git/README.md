@@ -1,4 +1,4 @@
-# Setting aws cofigure
+# Setting git cofigure
 ## single git account
 ```sh
 $ ssh-keygen -t rsa -C {your_email@address.com}
