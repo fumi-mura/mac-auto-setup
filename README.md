@@ -36,7 +36,7 @@ $ git clone "xxx"
 ### 6. Run setup script
 
 ```sh
-$ sh my_mac_settigns./setup_all.sh
+$ sh my_mac_settings/setup_all.sh
 ```
 
 ## Using software list
