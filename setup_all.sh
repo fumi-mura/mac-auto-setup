@@ -17,3 +17,6 @@ do
     echo "Executable setup.sh not found in $dir"
   fi
 done
+
+# execute trackpad setup.sh
+sh trackpad/setup_and_reboot.sh
