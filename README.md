@@ -43,7 +43,7 @@ $ sh setup_all.sh
 ## Using software list
 
 - Application
-  - VS Code -->
+  - VS Code
   - Postman
   - Google Chrome
   - Slack
@@ -52,7 +52,7 @@ $ sh setup_all.sh
   - Magnet
   - Spark
 - Development tools
-  - Homebrew -->
+  - Homebrew
   - Git
   - AWS CLI v2
   - Docker for Mac
