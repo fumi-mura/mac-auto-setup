@@ -7,6 +7,10 @@ dirs=($(ls -d */))
 for dir in "${dirs[@]}"
 do
   dir=${dir%/}
+  if [ "$dir" = "git" ]; then
+    echo "Skipping install git." # git is installed manually
+    continue
+  fi
   if [ -x "${dir}/setup.sh" ]; then
     (cd "${dir}" && ./setup.sh)
   else
