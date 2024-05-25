@@ -5,3 +5,6 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -int 
 
 # Change cursor movement speed.
 defaults write -g com.apple.trackpad.scaling -float 15
+
+# Reboot is required for this settings to reflect.
+sudo reboot
