@@ -62,5 +62,4 @@ $ sh setup_all.sh
   - Keepa
 - Requires manual installation
   - Magnet
-  - Spark
   - RunCat
