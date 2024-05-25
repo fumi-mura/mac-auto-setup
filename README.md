@@ -17,7 +17,7 @@ $ brew install git
 ### 3. Through path
 
 ```sh
-$ ehoc "export PATH=/usr/local/bin/git:$PATH" >> ~/.
+$ echo "export PATH=/usr/local/bin/git:$PATH" >> ~/.
 ```
 
 ```sh
