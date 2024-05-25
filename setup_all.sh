@@ -8,7 +8,7 @@ for dir in "${dirs[@]}"
 do
   dir=${dir%/}
   if [ -x "${dir}/setup.sh" ]; then
-    (cd "${zdir}" && ./setup.sh)
+    (cd "${dir}" && ./setup.sh)
   else
     echo "Executable setup.sh not found in $dir"
   fi
