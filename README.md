@@ -23,13 +23,17 @@ $ echo "export PATH=/usr/local/bin/git:\$PATH" >> ~/.zshrc
 $ source ~/.zshrc
 ```
 
-### 4. Clone this repository
+### 4. Setting git
+
+See /git/README.md
+
+### 5. Clone this repository
 
 ```sh
 $ git clone "xxx"
 ```
 
-### 5. Run setup script
+### 6. Run setup script
 
 ```sh
 $ ./setup_all.sh
