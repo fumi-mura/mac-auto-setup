@@ -18,5 +18,5 @@ do
   fi
 done
 
-# execute trackpad setup.sh
-sh trackpad/setup_and_reboot.sh
+# execute keyboard and trackpad setup.sh
+sh keyboard_and_trackpad/setup_and_reboot.sh

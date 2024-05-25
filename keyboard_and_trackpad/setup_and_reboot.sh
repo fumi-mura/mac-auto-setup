@@ -1,5 +1,15 @@
 #!/bin/sh
 
+# keyboard
+
+# Repeat speed.
+defaults write -g KeyRepeat -int 2
+
+# Time to repeat input recognition.
+defaults write -g InitialKeyRepeat -int 15
+
+# trackpad
+
 # Tap to allow clicks.
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -int 1
 
