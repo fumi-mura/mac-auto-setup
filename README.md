@@ -63,3 +63,9 @@ $ sh setup_all.sh
 - Requires manual installation
   - Magnet
   - RunCat
+  - Final Cut Pro
+  - Motion
+  - Compressor
+  - Logic Pro
+  - MainStage
+  - Photo Retouch
