@@ -50,6 +50,10 @@ $ cd my_mac_settings
 $ sh setup_all.sh
 ```
 
+### 7. Setup terminal
+
+See /terminal/README.md
+
 ## Using software list
 
 - Application
