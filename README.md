@@ -13,9 +13,9 @@ Check shell, Through path, Confirmation install.
 ```sh
 $ $SHELL
 
-(Follow brew instructions for commands.)
+$ (Follow brew instructions for commands.)
 
-brew -v
+$ brew -v
 ```
 
 ### 2. Install git
