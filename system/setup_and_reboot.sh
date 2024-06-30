@@ -14,6 +14,12 @@ defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 1
 
 defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 
+# Desktop
+
+## Turn off "Automatically rearrange operating space based on latest usage" setting
+
+defaults write com.apple.dock mru-spaces -bool false
+
 # Dock
 
 ## enable expansion
