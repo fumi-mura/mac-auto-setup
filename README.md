@@ -13,7 +13,7 @@ Check shell, Through path, Confirmation install.
 ```sh
 $ $SHELL
 
-$ (Follow brew instructions for commands.)
+$ (Follow brew instruction commands.)
 
 $ brew -v
 ```
