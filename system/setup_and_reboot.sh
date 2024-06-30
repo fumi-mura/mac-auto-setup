@@ -56,6 +56,15 @@ defaults write -g KeyRepeat -int 2
 ## Time to repeat input recognition.
 defaults write -g InitialKeyRepeat -int 15
 
+## Turn off adjust brightness when ambient light is dim
+sudo defaults write /Library/Preferences/com.apple.iokit.AmbientLightSensor "Automatic Display Enabled" -bool false
+
+## Turn off automatic spelling conversion while typing English
+defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+
+## Turn off automatic capitalization of sentence beginnings
+defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
+
 # Trackpad
 
 ## Tap to allow clicks.
