@@ -28,7 +28,6 @@ defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 # Desktop
 
 ## Turn off "Automatically rearrange operating space based on latest usage" setting
-
 defaults write com.apple.dock mru-spaces -bool false
 
 # Dock
@@ -88,6 +87,5 @@ defaults write -g com.apple.trackpad.scaling -float 3
 # Reboot
 
 ## Reboot is required for this settings to reflect.
-
 killall Dock
 sudo reboot
