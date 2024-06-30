@@ -10,8 +10,19 @@ defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 1
 
 # Contorol center
 
-## Turn on the numerical battery display
+## Display bluetooth icon in menu bar
+defaults write com.apple.controlcenter "NSStatusItem Visible Bluetooth" -bool true
 
+## Display sound icon in menu bar
+defaults write com.apple.controlcenter "NSStatusItem Visible Sound" -bool true
+
+## Non dirsisplay spotlight icon in menu bar
+defaults write com.apple.controlcenter "NSStatusItem Visible Search" -bool false
+
+## Display keyboard brightness in control center
+defaults write com.apple.controlcenter "NSStatusItem Visible KeyboardBrightness" -bool true
+
+## Turn on the numerical battery display
 defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 
 # Desktop
