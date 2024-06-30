@@ -8,6 +8,12 @@ defaults write NSGlobalDomain AppleInterfaceStyle -string "Dark"
 ## Set sidebar icon size to small
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 1
 
+# Contorol center
+
+## Turn on the numerical battery display
+
+defaults write com.apple.menuextra.battery ShowPercent -string "YES"
+
 # Dock
 
 ## enable expansion
