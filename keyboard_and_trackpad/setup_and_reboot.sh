@@ -8,6 +8,11 @@ defaults write NSGlobalDomain AppleInterfaceStyle -string "Dark"
 ## Set sidebar icon size to small
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 1
 
+# Rock screen
+
+## Set display sleep time on battery use
+sudo pmset -b displaysleep 10
+
 # keyboard
 
 ## Repeat speed.
