@@ -6,7 +6,17 @@ this is my Mac settings.
 
 ### 1. Install homebrew
 
-install from [here](https://brew.sh/)
+Install from [here](https://brew.sh/).
+
+Check shell, Through path, Confirmation install.
+
+```sh
+$ $SHELL
+
+(Follow brew instructions for commands.)
+
+brew -v
+```
 
 ### 2. Install git
 
