@@ -38,6 +38,11 @@ defaults write com.apple.dock show-recents -bool false
 ## speed of displaying dock
 defaults write com.apple.dock autohide-delay -float 0.01
 
+# Display
+
+## Turn off automatic luminosity adjustment
+sudo defaults write /Library/Preferences/com.apple.iokit.AmbientLightSensor "Automatic Display Enabled" -bool false
+
 # Rock screen
 
 ## Set display sleep time on battery use
