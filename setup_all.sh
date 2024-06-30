@@ -19,4 +19,5 @@ do
 done
 
 # execute keyboard and trackpad setup.sh
+# run separately to restart terminal and restart mac
 sh keyboard_and_trackpad/setup_and_reboot.sh
