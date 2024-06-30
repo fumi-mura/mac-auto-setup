@@ -18,6 +18,6 @@ do
   fi
 done
 
-# execute keyboard and trackpad setup.sh
+# execute system setup.sh
 # run separately to restart terminal and restart mac
-sh keyboard_and_trackpad/setup_and_reboot.sh
+sh system/setup_and_reboot.sh
