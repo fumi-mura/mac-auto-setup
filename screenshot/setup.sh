@@ -1,7 +1,7 @@
 #!/bin/sh
 
-mkdir ~/ScreenShot
-
 brew install --cask shottr
+
+mkdir ~/ScreenShot
 
 defaults write com.apple.screencapture location ~/ScreenShot/;killall SystemUIServer
