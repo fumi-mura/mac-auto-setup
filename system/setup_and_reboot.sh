@@ -13,18 +13,6 @@ defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 1
 ## Display bluetooth icon in menu bar
 defaults write com.apple.controlcenter "NSStatusItem Visible Bluetooth" -bool true
 
-## Display sound icon in menu bar
-defaults write com.apple.controlcenter "NSStatusItem Visible Sound" -bool true
-
-## Non dirsisplay spotlight icon in menu bar
-defaults write com.apple.controlcenter "NSStatusItem Visible Search" -bool false
-
-## Display keyboard brightness in control center
-defaults write com.apple.controlcenter "NSStatusItem Visible KeyboardBrightness" -bool true
-
-## Turn on the numerical battery display
-defaults write com.apple.menuextra.battery ShowPercent -string "YES"
-
 # Desktop
 
 ## Turn off "Automatically rearrange operating space based on latest usage" setting
@@ -48,11 +36,6 @@ defaults write com.apple.dock show-recents -bool false
 ## speed of displaying dock
 defaults write com.apple.dock autohide-delay -float 0.01
 
-# Display
-
-## Turn off automatic luminosity adjustment
-sudo defaults write /Library/Preferences/com.apple.iokit.AmbientLightSensor "Automatic Display Enabled" -bool false
-
 # Rock screen
 
 ## Set display sleep time on battery use
@@ -65,9 +48,6 @@ defaults write -g KeyRepeat -int 2
 
 ## Time to repeat input recognition.
 defaults write -g InitialKeyRepeat -int 15
-
-## Turn off adjust brightness when ambient light is dim
-sudo defaults write /Library/Preferences/com.apple.iokit.AmbientLightSensor "Automatic Display Enabled" -bool false
 
 ## Turn off automatic spelling conversion while typing English
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
