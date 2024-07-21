@@ -70,21 +70,21 @@ See /terminal/README.md
   - VSCode
   - Zoom
 - Development tools
-  - Homebrew
-  - Git
-  - AWSCLIv2
+  - AWS CLI v2
   - Docker
-  - tfenv
   - Fig
+  - Git
+  - Homebrew
+  - tfenv
 - Chrome Extensions
-  - Octotree
   - Keepa
+  - Octotree
 - Requires manual installation
-  - Magnet
-  - RunCat
-  - FinalCutPro
-  - Motion
   - Compressor
+  - FinalCutPro
   - LogicPro
+  - Magnet
   - MainStage
+  - Motion
   - PhotoRetouch
+  - RunCat

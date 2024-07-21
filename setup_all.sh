@@ -1,14 +1,14 @@
 #!/bin/sh
 
-# get directories without hidden
+# Get directories without hidden
 dirs=($(ls -d */))
 
-# execute setup.sh in each directory
+# Execute setup.sh in each directory
 for dir in "${dirs[@]}"
 do
   dir=${dir%/}
   if [ "$dir" = "git" ]; then
-    echo "Skipping install git." # git is installed manually
+    echo "Skipping install git." # Git is installed manually
     continue
   fi
   if [ -x "${dir}/setup.sh" ]; then
@@ -18,6 +18,6 @@ do
   fi
 done
 
-# execute system setup.sh
-# run separately to restart terminal and restart mac
+# Execute system setup.sh
+# Run separately to restart terminal and restart mac
 sh system/setup_and_reboot.sh

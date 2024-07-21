@@ -1,5 +1,5 @@
 # Setting git cofigure
-## single git account
+## Single git account
 ```sh
 $ ssh-keygen -t rsa -C {your_email@address.com}
 ```
@@ -15,12 +15,12 @@ Host github.com
   IdentitiesOnly yes
 ```
 
-## multi git accounts
+## Multi git accounts
 ```sh
 $ ssh-keygen -t rsa -C {your_email@address.com} -f {key name}
 
 $ vi ~/.ssh/config
-# accountA github key
+# Account A github key
 Host github.com.a
   HostName github.com
   User git
@@ -29,7 +29,7 @@ Host github.com.a
   TCPKeepAlive yes
   IdentitiesOnly yes
 
-# accountB github key
+# Account B github key
 Host github.com.b
   HostName github.com
   User git
@@ -39,8 +39,8 @@ Host github.com.b
   IdentitiesOnly yes
 ```
 
-### example of multi account command usage
-<!-- use accountA key-->
+## Example of multi account command usage
+<!-- Use account A key-->
 ```sh
 $ git@github.com.a:Fumi-Mura/my_mac_settings.git
 ```

@@ -1,16 +1,16 @@
-# setting fig
+# Setting fig
 
 ```sh
 $ open /Applications/Fig.app/
 ```
 
-unable to signin this app when use GUI.
-because integration aws...?
-so, move settings of mac → privacy and seccurity → accessibility.
-turn on apply button.
+Unable to signin this app when use GUI.
+Because integration aws...?
+So, move settings of mac → privacy and seccurity → accessibility.
+Turn on apply button.
 
 ```sh
 $ fig integrations install dotfiles
 ```
 
-reboot terminal.
+Reboot terminal.

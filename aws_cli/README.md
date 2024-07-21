@@ -10,7 +10,7 @@ $ brew link awscli@1
 
 # Setting aws cofigure
 
-## single aws account
+## Single aws account
 
 ```sh
 $ aws configure
@@ -20,7 +20,7 @@ Default region name [None]: [your region]
 Default output format [None]:
 ```
 
-## multi aws accounts
+## Multi aws accounts
 
 ```sh
 $ vi ~/.aws/credentials
@@ -38,7 +38,7 @@ $ vi ~/.aws/config
 region = {your region}
 ```
 
-## use case
+## Use case
 
 ```sh
 $ aws s3 ls --profile accountA
