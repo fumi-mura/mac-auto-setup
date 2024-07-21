@@ -1,6 +1,6 @@
 ## Overview
 
-this is my Mac settings.
+This is my Mac settings.
 
 ## Step
 
@@ -57,29 +57,34 @@ See /terminal/README.md
 ## Using software list
 
 - Application
-  - VS Code
-  - Postman
-  - Google Chrome
-  - Slack
   - Alfred
-  - Clipy
+  - AppCleaner
+  - Eikana
+  - GoogleChrome
+  - KeyboardCleanTool
   - Magnet
+  - Postman
+  - Shottr
+  - Slack
   - Spark
+  - VSCode
+  - Zoom
 - Development tools
   - Homebrew
   - Git
-  - AWS CLI v2
-  - Docker for Mac
+  - AWSCLIv2
+  - Docker
   - tfenv
+  - Fig
 - Chrome Extensions
   - Octotree
   - Keepa
 - Requires manual installation
   - Magnet
   - RunCat
-  - Final Cut Pro
+  - FinalCutPro
   - Motion
   - Compressor
-  - Logic Pro
+  - LogicPro
   - MainStage
-  - Photo Retouch
+  - PhotoRetouch
