@@ -46,6 +46,7 @@ $ git config --global user.name 'your name'
 $ git config --global user.email 'your email'
 ```
 
+<!-- Use account B key -->
 ```sh
 $ cd ~/{target directory}
 $ git config --local user.name 'your individual name'
@@ -53,6 +54,6 @@ $ git config --local user.email 'your individual email'
 ```
 
 ```sh
-$ git remote add origin git@github.com.a:{username}/{repository}.git # a
-$ git remote add origin git@github.com.b:{username}/{repository}.git # b
+# make repository use GUI.
+$ git clone git@github.com.{a or b}:{username}/{repository}.git
 ```
