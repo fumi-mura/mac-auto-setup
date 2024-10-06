@@ -54,6 +54,14 @@ $ git config --local user.email 'your individual email'
 ```
 
 ```sh
-# make repository use GUI.
+# Push local dir.
+$ git init
+$ git add -A
+$ git commit -m 'first commit'
+$ git remote add origin git@github.com.{a or b}:{username}/{repository}.git
+$ git branch -M main
+$ git push -u origin main
+
+# or clone
 $ git clone git@github.com.{a or b}:{username}/{repository}.git
 ```
