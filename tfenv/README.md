@@ -5,8 +5,10 @@
 ```sh
 $ tfenv --version
 $ tfenv list-remote
-$ tfenv install ["version"]
-$ tfenv use ["version"]
+$ tfenv install {version}
+# Use Apple silicon chip.
+$ TFENV_ARCH=amd64 tfenv install {version}
+$ tfenv use {version}
 $ tfenv list
 ```
 
