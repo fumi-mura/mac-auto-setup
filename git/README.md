@@ -1,4 +1,5 @@
 # Setting git cofigure
+
 ## Single git account
 ```sh
 $ ssh-keygen -t rsa -C {your_email@address.com}
@@ -16,6 +17,7 @@ Host github.com
 ```
 
 ## Multi git accounts
+
 ```sh
 $ ssh-keygen -t rsa -C {your_email@address.com} -f {key name}
 
@@ -40,6 +42,7 @@ Host github.com.b
 ```
 
 ## Example of multi account command usage
+
 <!-- Use account A key -->
 ```sh
 $ git config --global user.name 'your name'

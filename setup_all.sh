@@ -19,5 +19,5 @@ do
 done
 
 # Execute system setup.sh
-# Run separately to restart terminal and restart mac
+# Run separately to restart terminal and restart Mac.
 sh system/setup_and_reboot.sh

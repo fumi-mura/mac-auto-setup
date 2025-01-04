@@ -1,6 +1,5 @@
 # Setting Amazon Q
 
-
 ```sh
 $ vi ~/.zsrhc
 # Amazon Q pre block. Keep at the top of this file.
