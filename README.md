@@ -54,32 +54,9 @@ $ sh setup_all.sh
 
 See /terminal/README.md
 
-## Using software list
+## Other software list
 
-- Application
-  - Alfred
-  - AppCleaner
-  - Eikana
-  - GoogleChrome
-  - KeyboardCleanTool
-  - Magnet
-  - Postman
-  - Shottr
-  - Slack
-  - Spark
-  - VSCode
-  - Zoom
-- Development tools
-  - AWS CLI v2
-  - Docker
-  - Fig
-  - Git
-  - Homebrew
-  - tfenv
-- Chrome Extensions
-  - Keepa
-  - Octotree
-- Requires manual installation
+- Manual installation
   - Compressor
   - FinalCutPro
   - LogicPro
@@ -88,3 +65,6 @@ See /terminal/README.md
   - Motion
   - PhotoRetouch
   - RunCat
+- Chrome Extensions
+  - Keepa
+  - Octotree
