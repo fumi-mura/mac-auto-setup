@@ -59,6 +59,7 @@ See /terminal/README.md
 - Manual installation
   - Compressor
   - FinalCutPro
+  - Gestimer 2
   - LogicPro
   - Magnet
   - MainStage
