@@ -40,7 +40,7 @@ See /git/README.md
 ### 5. Clone this repository
 
 ```sh
-$ git clone "xxx"
+$ git clone {this_repository}
 ```
 
 ### 6. Run setup script
