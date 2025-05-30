@@ -70,6 +70,9 @@ defaults write -g com.apple.trackpad.scaling -float 3
 
 # Finder
 
+## Show all file extensions.
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+
 ## Show Library folder.
 chflags nohidden ~/Library
 
