@@ -73,6 +73,9 @@ defaults write -g com.apple.trackpad.scaling -float 3
 ## Show all file extensions.
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
+## Default Finder view is column.
+defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
+
 ## Show Library folder.
 chflags nohidden ~/Library
 
