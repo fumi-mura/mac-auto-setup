@@ -91,5 +91,6 @@ defaults write com.apple.screencapture location ~/ScreenShot/
 
 ## Reboot is required for this settings to reflect.
 killall Dock
+killall Finder
 killall SystemUIServer
 sudo reboot
