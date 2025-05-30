@@ -10,6 +10,9 @@ defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 1
 
 # Control center
 
+## Battery percentage visible.
+defaults write com.apple.menuextra.battery ShowPercent -string "YES"
+
 ## Display bluetooth icon in menu bar.
 defaults write com.apple.controlcenter "NSStatusItem Visible Bluetooth" -bool true
 
