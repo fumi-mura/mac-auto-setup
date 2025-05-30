@@ -8,7 +8,7 @@ defaults write NSGlobalDomain AppleInterfaceStyle -string "Dark"
 ## Set sidebar icon size to small
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 1
 
-# Contorol center
+# Control center
 
 ## Display bluetooth icon in menu bar
 defaults write com.apple.controlcenter "NSStatusItem Visible Bluetooth" -bool true
