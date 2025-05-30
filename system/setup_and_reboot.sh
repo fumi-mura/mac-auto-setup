@@ -75,8 +75,17 @@ defaults write com.apple.finder ShowPathbar -bool true
 ## Show Quit button(Deletion is only possible from GUI).
 defaults write com.apple.Finder QuitMenuItem -bool true
 
+# Screenshot
+
+## Make screenshots directly.
+mkdir ~/ScreenShot
+
+## Set screenshot save location.
+defaults write com.apple.screencapture location ~/ScreenShot/
+
 # Reboot
 
 ## Reboot is required for this settings to reflect.
 killall Dock
+killall SystemUIServer
 sudo reboot
