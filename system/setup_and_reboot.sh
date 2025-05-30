@@ -36,6 +36,10 @@ defaults write com.apple.dock show-recents -bool false
 ## speed of displaying dock
 defaults write com.apple.dock autohide-delay -float 0.01
 
+
+## Speed of hiding dock.
+defaults write com.apple.dock autohide-time-modifier -float 0.5
+
 # Rock screen
 
 ## Set display sleep time on battery use
