@@ -64,6 +64,17 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -int 
 ## Change cursor movement speed.
 defaults write -g com.apple.trackpad.scaling -float 3
 
+# Finder
+
+## Show Library folder.
+chflags nohidden ~/Library
+
+## Show Path bar.
+defaults write com.apple.finder ShowPathbar -bool true
+
+## Show Quit button(Deletion is only possible from GUI).
+defaults write com.apple.Finder QuitMenuItem -bool true
+
 # Reboot
 
 ## Reboot is required for this settings to reflect.
