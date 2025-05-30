@@ -2,28 +2,28 @@
 
 # Appearance
 
-## Set to dark mode
+## Set to dark mode.
 defaults write NSGlobalDomain AppleInterfaceStyle -string "Dark"
 
-## Set sidebar icon size to small
+## Set sidebar icon size to small.
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 1
 
 # Control center
 
-## Display bluetooth icon in menu bar
+## Display bluetooth icon in menu bar.
 defaults write com.apple.controlcenter "NSStatusItem Visible Bluetooth" -bool true
 
 # Desktop
 
-## Turn off "Automatically rearrange operating space based on latest usage" setting
+## Turn off "Automatically rearrange operating space based on latest usage" setting.
 defaults write com.apple.dock mru-spaces -bool false
 
 # Dock
 
-## Enable expansion
+## Enable expansion.
 defaults write com.apple.dock magnification -bool true
 
-## Default and expansion size
+## Default and expansion size.
 defaults write com.apple.dock tilesize -int 40
 defaults write com.apple.dock largesize -int 70
 
@@ -42,7 +42,7 @@ defaults write com.apple.dock autohide-time-modifier -float 0.5
 
 # Rock screen
 
-## Set display sleep time on battery use
+## Set display sleep time on battery use.
 sudo pmset -b displaysleep 10
 
 # Keyboard
@@ -53,10 +53,10 @@ defaults write -g KeyRepeat -int 2
 ## Time to repeat input recognition.
 defaults write -g InitialKeyRepeat -int 15
 
-## Turn off automatic spelling conversion while typing English
+## Turn off automatic spelling conversion while typing English.
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
-## Turn off automatic capitalization of sentence beginnings
+## Turn off automatic capitalization of sentence beginnings.
 defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
 
 # Trackpad
