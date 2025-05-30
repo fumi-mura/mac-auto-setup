@@ -91,10 +91,11 @@ defaults write com.apple.Finder QuitMenuItem -bool true
 # Screenshot
 
 ## Make screenshots directly.
-mkdir ~/ScreenShot
+SCREENSHOT_DIR=$HOME/ScreenShot
+mkdir -p $SCREENSHOT_DIR
 
 ## Set screenshot save location.
-defaults write com.apple.screencapture location ~/ScreenShot/
+defaults write com.apple.screencapture location $SCREENSHOT_DIR
 
 # Reboot
 
