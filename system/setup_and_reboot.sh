@@ -24,8 +24,8 @@ defaults write com.apple.dock mru-spaces -bool false
 defaults write com.apple.dock magnification -bool true
 
 ## default and expansion size
-defaults write com.apple.dock tilesize -integer 40
-defaults write com.apple.dock largesize -integer 70
+defaults write com.apple.dock tilesize -int 40
+defaults write com.apple.dock largesize -int 70
 
 ## display or not
 defaults write com.apple.dock autohide -bool true
