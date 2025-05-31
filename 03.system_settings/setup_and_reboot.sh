@@ -102,8 +102,16 @@ defaults write com.apple.screencapture location $SCREENSHOT_DIR
 
 # Reboot
 
-## Reboot is required for this settings to reflect.
+## Restart affected processes.
 killall Dock
 killall Finder
 killall SystemUIServer
-sudo reboot
+
+## Reboot is required for this settings to reflect.
+read -p "Some changes require a reboot to reflect. Would you like to reboot now? (y/N): " -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]; then
+  sudo reboot
+else
+  echo "Reboot has been canceled. Please perform it manually later."
+fi
