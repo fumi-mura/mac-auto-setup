@@ -1,1 +1,0 @@
-Prevent auto sleep tool.
