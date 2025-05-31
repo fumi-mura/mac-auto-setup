@@ -1,6 +1,8 @@
+# Mac auto setup
+
 ## Overview
 
-This is my Mac settings.
+Automatically performs initial setup for Mac.
 
 ## Step
 
@@ -47,7 +49,7 @@ $ git clone {this_repository}
 ### 6. Run setup script
 
 ```sh
-$ cd my-mac-settings
+$ cd mac-auto-setup
 $ sh setup_all.sh
 ```
 
