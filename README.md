@@ -35,7 +35,7 @@ $ source ~/.zshrc
 
 ### 4. Setting git
 
-See /git/README.md
+See git/README.md
 
 ### 5. Clone this repository
 
@@ -46,13 +46,13 @@ $ git clone {this_repository}
 ### 6. Run setup script
 
 ```sh
-$ cd my_mac_settings
+$ cd my-mac-settings
 $ sh setup_all.sh
 ```
 
 ### 7. Setup terminal
 
-See /terminal/README.md
+See terminal/README.md
 
 ## Other software list
 
