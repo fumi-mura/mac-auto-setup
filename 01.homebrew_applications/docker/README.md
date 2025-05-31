@@ -1,4 +1,4 @@
-# Check docker version
+Check docker version
 
 ```sh
 $ docker --version

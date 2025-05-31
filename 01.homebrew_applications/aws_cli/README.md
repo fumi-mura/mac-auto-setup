@@ -10,6 +10,8 @@ $ brew link awscli@1
 
 # Setting aws cofigure
 
+(If you use configure sso, see terraform-sample repositry.)
+
 ## Single aws account
 
 ```sh
