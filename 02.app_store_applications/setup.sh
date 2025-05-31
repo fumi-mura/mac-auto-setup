@@ -1,5 +1,7 @@
 #!/bin/sh
 
+echo "Start install app store applications Script."
+
 # For can't install apps from App Store.
 brew install mas
 

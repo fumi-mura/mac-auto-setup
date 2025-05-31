@@ -1,5 +1,7 @@
 #!/bin/sh
 
+echo "Start Setup and Reboot Script."
+
 # Appearance
 echo "Setup Appearance"
 

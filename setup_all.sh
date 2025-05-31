@@ -3,6 +3,8 @@
 # Get directories without hidden.
 dirs=(01.homebrew_applications/*/)
 
+echo "Start install homebrew applications Script."
+
 # Execute setup.sh in each directory.
 for dir in "${dirs[@]}"
 do
