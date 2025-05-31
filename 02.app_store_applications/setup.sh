@@ -1,11 +1,11 @@
 #!/bin/sh
 
-echo "Start install app store applications Script."
+echo "Start install app store applications script."
 
-# For can't install apps from App Store.
+# Only installable from the app store.
 brew install mas
 
-# App Store applications.
+# Applications list.
 mas install 937984704  # Amphetamine
 mas install 424390742  # Compressor
 mas install 424389933  # Final Cut Pro
