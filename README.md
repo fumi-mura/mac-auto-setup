@@ -56,16 +56,6 @@ See /terminal/README.md
 
 ## Other software list
 
-- Manual installation
-  - Compressor
-  - FinalCutPro
-  - Gestimer 2
-  - LogicPro
-  - Magnet
-  - MainStage
-  - Motion
-  - PhotoRetouch
-  - RunCat
 - Chrome Extensions
   - Keepa
   - Octotree
