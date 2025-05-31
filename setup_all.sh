@@ -1,14 +1,15 @@
 #!/bin/sh
 
-# Get directories without hidden
-dirs=($(ls -d */))
+# Get directories without hidden.
+dirs=(01.homebrew_applications/*/)
 
-# Execute setup.sh in each directory
+# Execute setup.sh in each directory.
 for dir in "${dirs[@]}"
 do
   dir=${dir%/}
-  if [ "$dir" = "git" ]; then
-    echo "Skipping install git." # Git is installed manually
+  dir_name=$(basename "$dir")
+  if [ "$dir_name" = "git" ]; then
+    echo "Skipping install git." # Git is installed manually.
     continue
   fi
   if [ -x "${dir}/setup.sh" ]; then
@@ -18,6 +19,9 @@ do
   fi
 done
 
-# Execute system setup.sh
-# Run separately to restart terminal and restart Mac.
-sh system/setup_and_reboot.sh
+# Execute app store applications install sh.
+sh 02.app_store_applications/setup.sh
+
+# Execute system_settings setup.sh.
+# Need to restart Mac.
+sh 03.system_settings/setup_and_reboot.sh
