@@ -1,5 +1,7 @@
 ```sh
-$ echo 'export PATH=$HOME/.nodebrew/current/bin:$PATH' >> ~/.zshrc
+$ vi ~/.zshrc
+# Node
+export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 $ nodebrew ls-remote
 $ nodebrew install stable <!-- or nodebrew install v18.15.0 or $ nodebrew install latest -->
