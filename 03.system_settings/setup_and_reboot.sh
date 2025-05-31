@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # Appearance
+echo "Setup Appearance"
 
 ## Set to dark mode.
 defaults write NSGlobalDomain AppleInterfaceStyle -string "Dark"
@@ -9,6 +10,7 @@ defaults write NSGlobalDomain AppleInterfaceStyle -string "Dark"
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 1
 
 # Control center
+echo "Setup Control Center"
 
 ## Battery percentage visible.
 defaults write com.apple.menuextra.battery ShowPercent -string "YES"
@@ -20,11 +22,13 @@ defaults write com.apple.controlcenter "NSStatusItem Visible WiFi" -bool true
 defaults write com.apple.controlcenter "NSStatusItem Visible Bluetooth" -bool true
 
 # Desktop
+echo "Setup Desktop"
 
 ## Turn off "Automatically rearrange operating space based on latest usage" setting.
 defaults write com.apple.dock mru-spaces -bool false
 
 # Dock
+echo "Setup Dock"
 
 ## Enable expansion.
 defaults write com.apple.dock magnification -bool true
@@ -47,11 +51,13 @@ defaults write com.apple.dock autohide-delay -float 0
 defaults write com.apple.dock autohide-time-modifier -float 0.5
 
 # Rock screen
+echo "Setup Rock Screen"
 
 ## Set display sleep time on battery use.
 sudo pmset -b displaysleep 10
 
 # Keyboard
+echo "Setup Keyboard"
 
 ## Repeat speed.
 defaults write -g KeyRepeat -int 2
@@ -66,6 +72,7 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
 
 # Trackpad
+echo "Setup Trackpad"
 
 ## Tap to allow clicks.
 defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
@@ -75,6 +82,7 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -int 
 defaults write -g com.apple.trackpad.scaling -float 3
 
 # Finder
+echo "Setup Finder"
 
 ## Show all file extensions.
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
@@ -92,6 +100,7 @@ defaults write com.apple.finder ShowPathbar -bool true
 defaults write com.apple.Finder QuitMenuItem -bool true
 
 # Screenshot
+echo "Setup Screenshot"
 
 ## Make screenshots directly.
 SCREENSHOT_DIR=$HOME/ScreenShot
@@ -101,13 +110,14 @@ mkdir -p $SCREENSHOT_DIR
 defaults write com.apple.screencapture location $SCREENSHOT_DIR
 
 # Reboot
+echo "Setup Reboot"
 
 ## Restart affected processes.
 killall Dock
 killall Finder
 killall SystemUIServer
 
-## Reboot is required for this settings to reflect.
+# Reboot is required for this settings to reflect.
 read -p "Some changes require a reboot to reflect. Would you like to reboot now? (y/N): " -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]; then
