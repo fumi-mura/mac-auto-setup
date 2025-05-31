@@ -57,5 +57,8 @@ See terminal/README.md
 ## Other software list
 
 - Chrome Extensions
+  - Authenticator
+  - DeepL
   - Keepa
   - Octotree
+  - Wappalyzer
