@@ -73,7 +73,7 @@ $ git clone git@github.com.{a or b}:{username}/{repository}.git
 ## Global gitignore settings
 
 ```sh
-$ vi ~/.config/git/ignore
+$ mkdir -p ~/.config/git && vi ~/.config/git/ignore
 # Developer tool
 .envrc
 
