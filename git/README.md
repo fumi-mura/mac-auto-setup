@@ -1,6 +1,7 @@
 # Setting git cofigure
 
 ## Single git account
+
 ```sh
 $ ssh-keygen -t rsa -C {your_email@address.com}
 ```
@@ -67,4 +68,15 @@ $ git push -u origin main
 
 # or clone
 $ git clone git@github.com.{a or b}:{username}/{repository}.git
+```
+
+## Global gitignore settings
+
+```sh
+$ vi ~/.config/git/ignore
+# Developer tool
+.envrc
+
+# For Mac
+.DS_Store
 ```
