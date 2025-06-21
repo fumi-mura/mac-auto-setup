@@ -2,9 +2,6 @@
 
 echo "Start install app store applications script."
 
-# Only installable from the app store.
-brew install mas
-
 # Applications list.
 mas install 937984704  # Amphetamine
 mas install 424390742  # Compressor
