@@ -3,7 +3,7 @@
 echo "Start install homebrew applications script."
 
 # Applications list.
-## not cask
+## formula
 brew install awscli
 brew install direnv
 brew install git
