@@ -10,5 +10,15 @@ fi
 cp ../dotfiles/.zshrc ~/.zshrc
 source ~/.zshrc
 
-# Setup gitignore
+# Setup dotfiles
+## .gitconfig
+cp ../dotfiles/.gitconfig ~/.gitconfig
+
+## .gitignore
 mkdir -p ~/.config/git && cp ../dotfiles/.gitignore_global ~/.config/git/ignore
+
+## .zprofile
+cp ../dotfiles/.zprofile ~/.zprofile
+
+## .zshrc
+cp ../dotfiles/.zshrc ~/.zshrc
