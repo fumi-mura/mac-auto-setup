@@ -3,22 +3,8 @@
 # Execute pre setup sh.
 sh 00.pre_setup/setup.sh
 
-# Get directories without hidden.
-echo "Start install homebrew applications script."
-
-dirs=(01.homebrew_applications/*/)
-
-# Execute setup.sh in each directory.
-for dir in "${dirs[@]}"
-do
-  dir=${dir%/}
-  dir_name=$(basename "$dir")
-  if [ -x "${dir}/setup.sh" ]; then
-    (cd "${dir}" && ./setup.sh)
-  else
-    echo "Executable setup.sh not found in $dir"
-  fi
-done
+# Execute homebrew applications install sh.
+sh 01.homebrew_applications/setup.sh
 
 # Execute app store applications install sh.
 sh 02.app_store_applications/setup.sh

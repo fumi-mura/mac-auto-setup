@@ -1,4 +1,3 @@
-
 ```sh
 $ vi ~/.zshrc
 # direnv
