@@ -16,7 +16,7 @@ $ curl -L https://github.com/fumi-mura/mac-auto-setup/archive/refs/heads/main.zi
 $ git clone {this_repository}
 ```
 
-### 2. Setup all
+### 2. Ececution setup sh
 
 ```sh
 $ cd ~/mac-auto-setup && sh setup_all.sh
