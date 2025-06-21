@@ -1,0 +1,13 @@
+# Official file name and location is '~/.config/git/ignore'.
+
+# VS Code
+**/.vscode/*
+
+# Claude Code
+**/.claude/settings.local.json
+
+# direnv
+**/.envrc
+
+# For Mac
+.DS_Store
