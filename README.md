@@ -6,7 +6,7 @@ Automatically performs initial setup for Mac.
 
 ## Step
 
-### 1. Install homebrew
+### 1. Install Homebrew
 
 Install from [here](https://brew.sh/).
 
@@ -20,7 +20,7 @@ $ (Follow brew instruction commands.)
 $ brew -v
 ```
 
-### 2. Install git
+### 2. Install Git
 
 ```sh
 $ brew install git
@@ -36,7 +36,7 @@ export PATH=/usr/local/bin/git:\$PATH
 $ source ~/.zshrc
 ```
 
-### 4. Setting git
+### 4. Setting Git
 
 See git/README.md
 
