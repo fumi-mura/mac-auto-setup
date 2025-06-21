@@ -6,54 +6,29 @@ Automatically performs initial setup for Mac.
 
 ## Step
 
-### 1. Install Homebrew
-
-Install from [here](https://brew.sh/).
-
-Check shell, Through path, Confirmation install.
+### 1. Clone Repository
 
 ```sh
-$ $SHELL
+# If Git settings isn't complete.
+$ curl -L https://github.com/fumi-mura/mac-auto-setup/archive/refs/heads/main.zip -o ~/mac-auto-setup.zip && unzip -q ~/mac-auto-setup.zip -d ~ && mv ~/mac-auto-setup-main ~/mac-auto-setup && rm ~/mac-auto-setup.zip
 
-$ (Follow brew instruction commands.)
-
-$ brew -v
-```
-
-### 2. Install Git
-
-```sh
-$ brew install git
-```
-
-### 3. Through path
-
-```sh
-$ vi ~/.zshrc
-# Git
-export PATH=/usr/local/bin/git:\$PATH
-
-$ source ~/.zshrc
-```
-
-### 4. Setting Git
-
-See git/README.md
-
-### 5. Clone this repository
-
-```sh
+# If Git settings is complete.
 $ git clone {this_repository}
 ```
 
-### 6. Run setup script
+### 2. Pre setup
 
 ```sh
-$ cd mac-auto-setup
+$ cd ~/mac-auto-setup && sh 00.pre_setup/setup.sh
+```
+
+### 3. Setup all
+
+```sh
 $ sh setup_all.sh
 ```
 
-### 7. Setup terminal
+### 4. Setup terminal
 
 See terminal/README.md
 
