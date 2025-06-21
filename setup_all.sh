@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Execute pre setup sh.
+sh 00.pre_setup/setup.sh
+
 # Get directories without hidden.
 echo "Start install homebrew applications script."
 
