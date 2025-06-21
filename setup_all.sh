@@ -1,19 +1,15 @@
 #!/bin/sh
 
 # Get directories without hidden.
-dirs=(01.homebrew_applications/*/)
-
 echo "Start install homebrew applications script."
+
+dirs=(01.homebrew_applications/*/)
 
 # Execute setup.sh in each directory.
 for dir in "${dirs[@]}"
 do
   dir=${dir%/}
   dir_name=$(basename "$dir")
-  if [ "$dir_name" = "git" ]; then
-    echo "Skipping install git." # Git is installed manually.
-    continue
-  fi
   if [ -x "${dir}/setup.sh" ]; then
     (cd "${dir}" && ./setup.sh)
   else
