@@ -69,14 +69,3 @@ $ git push -u origin main
 # or clone
 $ git clone git@github.com.{a or b}:{username}/{repository}.git
 ```
-
-## Global gitignore settings
-
-```sh
-$ mkdir -p ~/.config/git && vi ~/.config/git/ignore
-# Developer tool
-.envrc
-
-# For Mac
-.DS_Store
-```
