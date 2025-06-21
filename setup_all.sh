@@ -24,6 +24,9 @@ done
 # Execute app store applications install sh.
 sh 02.app_store_applications/setup.sh
 
+# Execute npm applications install sh.
+sh 03.npm_applications/setup.sh
+
 # Execute system_settings setup.sh.
 # Need to restart Mac.
 sh 99.system_settings/setup_and_reboot.sh
