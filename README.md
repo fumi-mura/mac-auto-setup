@@ -10,7 +10,7 @@ Automatically performs initial setup for Mac.
 
 ```sh
 # If Git settings isn't complete.
-$ curl -L https://github.com/fumi-mura/mac-auto-setup/archive/refs/heads/main.zip -o ~/mac-auto-setup.zip && unzip -q ~/mac-auto-setup.zip -d ~ && mv ~/mac-auto-setup-main ~/mac-auto-setup && rm ~/mac-auto-setup.zip
+$ cd ~ && curl -LO https://github.com/fumi-mura/mac-auto-setup/archive/refs/heads/main.zip && unzip -q main.zip && mv mac-auto-setup-main mac-auto-setup && rm main.zip
 
 # If Git settings is complete.
 $ git clone {this_repository}
