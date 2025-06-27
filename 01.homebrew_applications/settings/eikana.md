@@ -1,1 +1,0 @@
-For US keyboard.

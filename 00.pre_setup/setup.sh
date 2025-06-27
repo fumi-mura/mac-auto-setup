@@ -23,3 +23,6 @@ cp ../dotfiles/.zprofile ~/.zprofile
 
 ## .zshrc
 cp ../dotfiles/.zshrc ~/.zshrc
+
+## Karabiner-Elements
+cp ../dotfiles/karabiner.json ~/.config/karabiner/karabiner.json

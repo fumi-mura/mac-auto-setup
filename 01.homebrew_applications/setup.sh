@@ -21,9 +21,9 @@ brew install --cask amazon-q
 brew install --cask appcleaner
 brew install --cask discord
 brew install --cask docker
-brew install --cask cmd-eikana
 brew install --cask google-chrome
 brew install --cask jordanbaird-ice
+brew install --cask karabiner-elements
 brew install --cask keyboardcleantool
 brew install --cask menubarx
 brew install --cask postman
