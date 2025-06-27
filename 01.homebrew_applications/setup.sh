@@ -27,6 +27,7 @@ brew install --cask jordanbaird-ice
 brew install --cask keyboardcleantool
 brew install --cask menubarx
 brew install --cask postman
+brew install --cask sequel-ace
 brew install --cask shottr
 brew install --cask slack
 brew install --cask readdle-spark
