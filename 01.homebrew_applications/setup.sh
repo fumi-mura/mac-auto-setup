@@ -4,6 +4,7 @@ echo "Start install homebrew applications script."
 
 # Applications list.
 ## formula
+brew install aquaproj/aqua/aqua
 brew install awscli
 brew install direnv
 brew install git
