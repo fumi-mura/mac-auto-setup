@@ -13,6 +13,7 @@ brew install nodebrew
 brew install php
 brew install tfenv
 brew install tflint
+brew install tfmigrate
 brew install tgenv
 brew install tree
 brew install trivy
