@@ -17,6 +17,7 @@ brew install tfmigrate
 brew install tgenv
 brew install tree
 brew install trivy
+brew install yukiarrr/tap/ecsk
 
 ## cask
 brew install --cask alfred
