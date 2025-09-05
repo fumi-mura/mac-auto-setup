@@ -7,6 +7,7 @@ echo "Start install homebrew applications script."
 brew install aquaproj/aqua/aqua
 brew install awscli
 brew install direnv
+brew install gemini-cli
 brew install gh
 brew install git
 brew install nodebrew
