@@ -50,9 +50,15 @@ alias dsp='docker system prune --volumes'
 alias tf='terraform'
 alias tfi='terraform init'
 alias tfp='terraform plan'
-alias tfpt='terraform plan -target=module.'
+alias tfpt='terraform plan -target'
 alias tfa='terraform apply'
-alias tfat='terraform apply -target=module.'
+alias tfat='terraform apply -target'
+## Terragrunt
+alias tg='terragrunt'
+alias tgi='terragrunt init --backend-bootstrap'
+alias tgf='terragrunt hclfmt'
+alias tgap='terragrunt run-all plan'
+alias tgaa='terragrunt run-all apply'
 
 # Amazon Q post block. Keep at the bottom of this file.
 [[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh"
