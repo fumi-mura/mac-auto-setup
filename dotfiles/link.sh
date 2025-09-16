@@ -8,6 +8,9 @@ for dotfile in "${SCRIPT_DIR}"/.??* ; do
     [[ "$dotfile" == "${SCRIPT_DIR}/.github" ]] && continue
     [[ "$dotfile" == "${SCRIPT_DIR}/.DS_Store" ]] && continue
     [[ "$dotfile" == "${SCRIPT_DIR}/.gitignore_global" ]] && continue
+    # Comment in if necessary.
+    # [[ "$dotfile" == "${SCRIPT_DIR}/.gitconfig" ]] && continue
+    # [[ "$dotfile" == "${SCRIPT_DIR}/.zshrc" ]] && continue
 
     ln -fnsv "$dotfile" "$HOME"
 done
