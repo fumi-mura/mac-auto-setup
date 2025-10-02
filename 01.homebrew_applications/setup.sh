@@ -31,6 +31,7 @@ brew install --cask jordanbaird-ice
 brew install --cask karabiner-elements
 brew install --cask keyboardcleantool
 brew install --cask menubarx
+brew install --cask notchnook
 brew install --cask postman
 brew install --cask sequel-ace
 brew install --cask shottr
