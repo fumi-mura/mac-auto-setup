@@ -22,6 +22,7 @@ brew install yukiarrr/tap/ecsk
 
 ## cask
 brew install --cask alfred
+brew install --cask arc
 brew install --cask amazon-q
 brew install --cask appcleaner
 brew install --cask discord
