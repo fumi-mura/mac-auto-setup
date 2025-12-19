@@ -10,6 +10,7 @@ brew install direnv
 brew install gemini-cli
 brew install gh
 brew install git
+brew install idoavrah/homebrew/tftui
 brew install nodebrew
 brew install php
 brew install tfenv
