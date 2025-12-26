@@ -29,6 +29,7 @@ brew install --cask appcleaner
 brew install --cask discord
 brew install --cask docker
 brew install --cask google-chrome
+brew install --cask google-drive
 brew install --cask itsycal
 brew install --cask jordanbaird-ice
 brew install --cask karabiner-elements
