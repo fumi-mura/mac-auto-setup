@@ -15,6 +15,9 @@ export PATH=/usr/local/bin/git:$PATH
 # direnv
 eval "$(direnv hook zsh)"
 
+# mise
+eval "$(mise activate zsh)"
+
 # Node
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
