@@ -24,7 +24,6 @@ brew install yukiarrr/tap/ecsk
 
 ## cask
 brew install --cask alfred
-brew install --cask arc
 brew install --cask amazon-q
 brew install --cask appcleaner
 brew install --cask discord
@@ -38,10 +37,11 @@ brew install --cask keyboardcleantool
 brew install --cask menubarx
 brew install --cask notchnook
 brew install --cask postman
+brew install --cask readdle-spark
 brew install --cask sequel-ace
 brew install --cask shottr
 brew install --cask slack
-brew install --cask readdle-spark
+brew install --cask thebrowsercompany-dia
 brew install --cask vrew
 brew install --cask visual-studio-code
 brew install --cask zoom
