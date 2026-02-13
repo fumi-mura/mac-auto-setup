@@ -41,7 +41,6 @@ brew install --cask readdle-spark
 brew install --cask sequel-ace
 brew install --cask shottr
 brew install --cask slack
-brew install --cask thebrowsercompany-dia
 brew install --cask vrew
 brew install --cask visual-studio-code
 brew install --cask zoom
