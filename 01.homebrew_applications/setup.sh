@@ -31,7 +31,8 @@ brew install --cask docker
 brew install --cask google-chrome
 brew install --cask google-drive
 brew install --cask itsycal
-brew install --cask jordanbaird-ice
+# brew install --cask jordanbaird-ice # Unavailable on macOS Tahoe. So use beta version.
+brew install --cask jordanbaird-ice@beta
 brew install --cask karabiner-elements
 brew install --cask keyboardcleantool
 brew install --cask menubarx
