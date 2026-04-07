@@ -110,7 +110,7 @@
   },
   "statusLine": {
     "type": "command",
-    "command": "/.claude/statusline.js",
+    "command": "~/.claude/statusline.js",
     "padding": 0
   },
   "hooks": {
@@ -120,7 +120,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "echo '{\"cwd\": \"'\"$(pwd)\"'\", \"notification_type\": \"stop\"}' | ./.claude/hooks/notify.sh"
+            "command": "echo '{\"cwd\": \"'\"$(pwd)\"'\", \"notification_type\": \"stop\"}' | ~/.claude/hooks/notify.sh"
           }
         ]
       }
@@ -131,7 +131,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "./.claude/hooks/notify.sh"
+            "command": "~/.claude/hooks/notify.sh"
           }
         ]
       }
