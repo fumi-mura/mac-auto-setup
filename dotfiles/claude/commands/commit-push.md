@@ -4,24 +4,51 @@ allowed-tools: Bash(git add:*), Bash(git status:*), Bash(git commit:*), Bash(git
 description: commitして、pushする
 ---
 
-## Context
+## 手順
 
-- Current git status: !`git status`
-- Current git diff (staged and unstaged changes): !`git diff HEAD`
-- Current branch: !`git branch --show-current`
-- Recent commits: !`git log --oneline -10`
+1. 変更内容の確認 (`git status`, `git diff`)
+2. 今回の作業に関連するファイルのみを選択的にステージング
+   - `git add [specific-files]` を使用
+   - **`git add .` や `git add -A` は使用しない**
+3. ステージングした内容の確認 (`git diff --cached`)
+4. 最近のコミットメッセージを確認 (`git log --oneline -5`)
+5. Conventional Commitsに従ったコミットメッセージを作成
+6. コミット実行
+7. リモートリポジトリへプッシュ
 
 ## Format
 
-`<type>[optional scope]: <description>`
+```
+{type}: {description}
+{optional body}
+```
 
-## Your task
+### Type一覧
 
-上記の変更内容に基づいて、以下を順番に実行する。
+- `feat`: 新機能
+- `fix`: バグ修正
+- `docs`: ドキュメントのみの変更
+- `style`: コードの意味に影響しない変更（空白、フォーマット等）
+- `refactor`: バグ修正や機能追加を伴わないコード変更
+- `perf`: パフォーマンス改善
+- `test`: テストの追加・修正
+- `chore`: ビルドプロセスやツールの変更
+- `ci`: CI関連の変更
+- `build`: ビルドシステムや依存関係の変更
 
-1. 変更ファイルをステージングする（`.env` や認証情報ファイルは除外する）
-2. Conventional Commits formatを元にコミットする
-3. `git push` でリモートにプッシュする
-4. mainブランチで作業している場合は、直接pushしてよいか確認する
+## コミットメッセージのガイドライン
 
-ツールの複数呼び出しが可能な場合、すべてを1つのメッセージで実行すること。他のツールは使わず、余分なテキストやメッセージは送らないこと。
+- 必ずConventional Commits形式に従う
+- descriptionも英語で記述
+- 1行で変更内容を簡潔に説明(50文字以内推奨)
+- 現在形・命令形で記述
+- 複数の変更がある場合は、主要な変更に焦点を当てる
+
+## 重要な注意事項
+
+- 関係ない変更をコミットに含めない
+- 作業ディレクトリの全変更を確認し、今回の作業に関連するファイルのみを選択
+- 自動生成ファイルや一時ファイルが含まれていないか確認
+- ステージング前後で必ず差分を確認
+- `.env` や認証情報ファイルは除外
+- mainブランチで作業している場合は、直接pushしてよいか確認する
