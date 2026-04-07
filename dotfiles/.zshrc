@@ -21,6 +21,9 @@ eval "$(mise activate zsh)"
 # Node
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
+# Ruby
+eval "$(rbenv init - zsh)"
+
 # aqua
 export PATH="${AQUA_ROOT_DIR:-${XDG_DATA_HOME:-$HOME/.local/share}/aquaproj-aqua}/bin:$PATH"
 

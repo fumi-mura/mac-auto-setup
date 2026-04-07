@@ -22,3 +22,7 @@ ln -fnsv "$SCRIPT_DIR/.gitignore_global" "$HOME/.config/git/ignore"
 # Karabiner
 mkdir -p "$HOME/.config/karabiner"
 ln -fnsv "$SCRIPT_DIR/karabiner.json" "$HOME/.config/karabiner/karabiner.json"
+
+# Claude
+mkdir -p "$HOME/.claude"
+ln -fnsv "$SCRIPT_DIR/claude/commands" "$HOME/.claude/commands"
