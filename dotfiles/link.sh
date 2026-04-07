@@ -25,6 +25,7 @@ ln -fnsv "$SCRIPT_DIR/karabiner.json" "$HOME/.config/karabiner/karabiner.json"
 
 # Claude
 mkdir -p "$HOME/.claude"
+ln -fnsv "$SCRIPT_DIR/claude/CLAUDE.md" "$HOME/.claude/CLAUDE.md"
 ln -fnsv "$SCRIPT_DIR/claude/commands" "$HOME/.claude/commands"
 ln -fnsv "$SCRIPT_DIR/claude/hooks" "$HOME/.claude/hooks"
 ln -fnsv "$SCRIPT_DIR/claude/settings.json" "$HOME/.claude/settings.json"
