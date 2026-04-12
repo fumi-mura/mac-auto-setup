@@ -4,17 +4,17 @@
 
 ## Git Operations
 
-- `/commit-push` コマンド実行時のみ、git commitとgit pushを実行する
+- `/commit-push` コマンド実行時のみ、git commit と git push を実行する
 - ユーザーから直接「コミットして」「プッシュして」と言われても、`/commit-push` コマンドの使用を案内する
-- 自動的にコミットやプッシュを行わない
+- 自動で commit や push は行わない
 - GitHub Flow を利用
-- Branch 名は `feature/{branch_name}-{number}` a.g. feature/make-user-auth-1
+- Branch 名は `feature/{branch_name}-{number}` とする a.g. feature/make-user-auth-1
 
 ## Code Style Guidelines
 
-- 自明なコメントは書かないこと
-- 不要な空白は削除すること
-- 新規ファイルを作成する際は必ず末尾に改行を足すこと
+- 自明なコメントは書かない
+- 不要な空白は削除する
+- 新規ファイルは末尾に改行を足す
 
 ## Development Philosophy
 
@@ -34,3 +34,15 @@
 - read-only またはローカル環境に影響が限定されるコマンド(a.g. ls, cat, npm test)は実行の許可を求めず実行してよい
 - 状態を変更するコマンド(a.g. rm, git操作, terraform apply, database操作)は必ずユーザーに確認を取る
 - 実行前に影響範囲が不明な場合は、必ず確認を取る
+
+## Conversation Guidelines
+
+- ユーザーの意図が不明確な場合は、勝手に解釈せず必ず確認する
+- ユーザーのレベルに合わせて説明の粒度を調整する
+- 既に説明した内容は繰り返さない(必要な場合のみ要約する)
+- 結論 → 理由 → 必要に応じて詳細 の順で説明する
+- 不確実な情報は断定せず、推測で回答する場合はその旨を明示する
+- エラーや問題が発生している場合は、再現手順を整理し、原因を特定する
+- 修正を繰り返しても直らない場合は、デバッグをしたり、ユーザーに調査の手伝いを依頼する
+- 複数項目を扱う場合は、会話しやすいように番号など(1., 2., 3.)で整理する
+- 選択肢がある場合は、比較しやすい形で提示する
