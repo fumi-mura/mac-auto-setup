@@ -1,0 +1,10 @@
+{
+  "context": {
+    "fileName": ["CLAUDE.md"]
+  },
+  "security": {
+    "auth": {
+      "selectedType": "oauth-personal"
+    }
+  }
+}

@@ -25,8 +25,16 @@ ln -fnsv "$SCRIPT_DIR/karabiner.json" "$HOME/.config/karabiner/karabiner.json"
 
 # Claude
 mkdir -p "$HOME/.claude"
-ln -fnsv "$SCRIPT_DIR/claude/CLAUDE.md" "$HOME/.claude/CLAUDE.md"
 ln -fnsv "$SCRIPT_DIR/claude/commands" "$HOME/.claude/commands"
 ln -fnsv "$SCRIPT_DIR/claude/hooks" "$HOME/.claude/hooks"
+ln -fnsv "$SCRIPT_DIR/claude/CLAUDE.md" "$HOME/.claude/CLAUDE.md"
 ln -fnsv "$SCRIPT_DIR/claude/settings.json" "$HOME/.claude/settings.json"
 ln -fnsv "$SCRIPT_DIR/claude/statusline.js" "$HOME/.claude/statusline.js"
+
+# Codex
+mkdir -p "$HOME/.codex"
+ln -fnsv "$SCRIPT_DIR/codex/config.toml" "$HOME/.codex/config.toml"
+
+# Gemini
+mkdir -p "$HOME/.gemini"
+ln -fnsv "$SCRIPT_DIR/gemini/settings.json" "$HOME/.gemini/settings.json"
