@@ -12,7 +12,7 @@ link_file() {
   local source_path="$1"
   local target_path="$2"
 
-  mkdir -p "$(dirname "${target_path}")"
+  ensure_directory "$(dirname "${target_path}")"
   ln -fnsv "${source_path}" "${target_path}"
 }
 
