@@ -8,8 +8,8 @@ description: commitして、pushする
 
 1. 変更内容の確認 (`git status`, `git diff`)
 2. 今回の作業に関連するファイルのみを選択的にステージング
-   - `git add [specific-files]` を使用
-   - **`git add .` や `git add -A` は使用しない**
+  - `git add [specific-files]` を使用
+  - **`git add .` や `git add -A` は使用しない**
 3. ステージングした内容の確認 (`git diff --cached`)
 4. 最近のコミットメッセージを確認 (`git log --oneline -5`)
 5. Conventional Commitsに従ったコミットメッセージを作成

@@ -33,8 +33,12 @@ ln -fnsv "$SCRIPT_DIR/claude/statusline.js" "$HOME/.claude/statusline.js"
 
 # Codex
 mkdir -p "$HOME/.codex"
+mkdir -p "$HOME/.codex/skills"
 ln -fnsv "$SCRIPT_DIR/shared/AGENTS.md" "$HOME/.codex/AGENTS.md"
 ln -fnsv "$SCRIPT_DIR/codex/config.toml" "$HOME/.codex/config.toml"
+ln -fnsv "$SCRIPT_DIR/codex/skills/commit-push" "$HOME/.codex/skills/commit-push"
+ln -fnsv "$SCRIPT_DIR/codex/skills/pr-create" "$HOME/.codex/skills/pr-create"
+ln -fnsv "$SCRIPT_DIR/codex/skills/pr-update" "$HOME/.codex/skills/pr-update"
 
 # Gemini
 mkdir -p "$HOME/.gemini"

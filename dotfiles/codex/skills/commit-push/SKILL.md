@@ -1,6 +1,5 @@
 ---
 name: commit-push
-allowed-tools: Bash(git add:*), Bash(git status:*), Bash(git commit:*), Bash(git push:*), Bash(git log:*), Bash(git diff:*)
 description: commitして、pushする
 ---
 
