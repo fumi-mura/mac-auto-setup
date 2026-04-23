@@ -1,1 +1,7 @@
-project_doc_fallback_filenames = ["CLAUDE.md","README.md"]
+project_doc_fallback_filenames = ["AGENTS.md",".codex/AGENTS.md"]
+
+[projects."/Users/fumiakimuramatsu/Program/mac-auto-setup"]
+trust_level = "trusted"
+
+[projects."/Users/fumiakimuramatsu/Program/visitory"]
+trust_level = "trusted"

@@ -30,6 +30,7 @@ brew install --cask claude-code
 brew install --cask codex
 brew install --cask discord
 brew install --cask docker
+brew install --cask figma
 brew install --cask google-chrome
 brew install --cask google-drive
 brew install --cask itsycal
