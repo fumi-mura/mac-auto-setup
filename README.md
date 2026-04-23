@@ -1,30 +1,63 @@
-# Mac auto setup
+# dotfiles
 
-## Overview
+Mac の買い替え時や複数 Mac で、同じ環境を少ない手順で再現するためのリポジトリです。
 
-Automatically performs initial setup for Mac.
+`make install` で、次のセットアップをまとめて実行します。
 
-## Step
+- Homebrew と Brewfile の適用
+- dotfiles のシンボリックリンク作成
+- App Store アプリのインストール
+- macOS 設定の反映
 
-### 1. Clone Repository
+## Setup
 
-```sh
-# If Git settings isn't complete.
-$ cd ~ && curl -LO https://github.com/fumi-mura/mac-auto-setup/archive/refs/heads/main.zip && unzip -q main.zip && mv mac-auto-setup-main mac-auto-setup && rm main.zip
-
-# If Git settings is complete.
-$ git clone {this_repository}
-```
-
-### 2. Execution setup sh
+### 1. Clone repository
 
 ```sh
-$ cd ~/mac-auto-setup && sh setup_all.sh
+# Git の設定前
+cd ~ && \
+curl -LO https://github.com/fumi-mura/mac-auto-setup/archive/refs/heads/main.zip && \
+unzip -q main.zip && mv dotfiles-main dotfiles && \
+rm main.zip
+
+# Git の設定後
+git clone {this_repository}
 ```
 
-### 3. Setup terminal
+### 2. Run full setup
 
-See terminal/README.md
+```sh
+cd ~/dotfiles
+make install
+```
+
+`make` が使えない場合は、次のコマンドでも実行できます。
+
+```sh
+cd ~/dotfiles
+./scripts/install.sh
+```
+
+## Partial setup
+
+```sh
+make brew
+make link
+make mas
+make macos
+```
+
+## Docs
+
+- Terminal: [docs/terminal.md](docs/terminal.md)
+- Additional setup guides: [docs/setup](docs/setup)
+
+## Repository layout
+
+- `zsh`, `git`, `karabiner`: shell と各種ローカル設定
+- `ai`: Claude / Codex / Gemini の設定
+- `shared/ai`: AI ツール間で共有する指示や skills
+- `docs`: 手動設定や補足手順
 
 ## Other software list
 
