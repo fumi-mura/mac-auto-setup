@@ -56,7 +56,7 @@ make macos
 
 - `zsh`, `git`, `karabiner`: shell と各種ローカル設定
 - `ai`: Claude / Codex / Gemini の設定
-- `shared`: AI ツール間で共有する指示や skills
+- `shared/ai`: AI ツール間で共有する指示や skills
 - `docs`: 手動設定や補足手順
 
 ## Other software list
