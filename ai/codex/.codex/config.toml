@@ -1,7 +1,10 @@
 project_doc_fallback_filenames = ["AGENTS.md",".codex/AGENTS.md"]
 
-[projects."/Users/fumiakimuramatsu/Program/mac-auto-setup"]
+[projects."/Users/fumiakimuramatsu/Program/dotfiles"]
 trust_level = "trusted"
 
 [projects."/Users/fumiakimuramatsu/Program/visitory"]
+trust_level = "trusted"
+
+[projects."/Users/fumiakimuramatsu/Program/fade-in-alarm"]
 trust_level = "trusted"
