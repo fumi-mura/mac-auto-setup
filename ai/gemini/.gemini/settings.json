@@ -12,5 +12,14 @@
   "ide": {
     "hasSeenNudge": true,
     "enabled": true
+  },
+  "permissions": {
+    "allow": [
+      "Read(/Users/fumiakimuramatsu/ScreenShot/*)",
+      "Read(/Users/fumiakimuramatsu/Downloads/*)",
+      "Read(/Users/fumiakimuramatsu/Desktop/*)",
+      "Read(/tmp/*)",
+      "Read(/var/folders/*)"
+    ]
   }
 }

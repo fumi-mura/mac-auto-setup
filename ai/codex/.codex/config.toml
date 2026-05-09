@@ -1,5 +1,14 @@
 project_doc_fallback_filenames = ["AGENTS.md",".codex/AGENTS.md"]
 
+default_permissions = "custom"
+
+[permissions.custom.filesystem]
+"/Users/fumiakimuramatsu/ScreenShot" = "read"
+"/Users/fumiakimuramatsu/Downloads" = "read"
+"/Users/fumiakimuramatsu/Desktop" = "read"
+"/tmp" = "read"
+"/var/folders" = "read"
+
 [projects."/Users/fumiakimuramatsu/Program/dotfiles"]
 trust_level = "trusted"
 
@@ -8,3 +17,9 @@ trust_level = "trusted"
 
 [projects."/Users/fumiakimuramatsu/Program/fade-in-alarm"]
 trust_level = "trusted"
+
+[projects."/Users/fumiakimuramatsu/Program/muraji-website"]
+trust_level = "trusted"
+
+[tui.model_availability_nux]
+"gpt-5.5" = 2
