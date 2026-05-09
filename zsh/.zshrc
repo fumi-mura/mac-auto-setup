@@ -32,7 +32,7 @@ export PATH="${AQUA_ROOT_DIR:-${XDG_DATA_HOME:-$HOME/.local/share}/aquaproj-aqua
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
-alias la='ls -la'
+alias ll='ls -la -G'
 ## Git
 alias g='git'
 alias ga='git add'
@@ -43,6 +43,10 @@ alias gca='git commit --amend -m'
 alias gst='git status'
 alias gsw='git switch'
 alias gswc='git switch -c'
+alias gp='git pull'
+alias gd='git diff'
+alias gl='git log --oneline --graph --decorate'
+
 ## Docker
 alias d='docker'
 alias de='docker exec -it'
