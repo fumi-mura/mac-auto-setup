@@ -1,13 +1,13 @@
 # dotfiles
 
-Mac の買い替え時や複数 Mac で、同じ環境を少ない手順で再現するためのリポジトリです。
+Mac の買い替えや複数 Mac で、同じ環境を少ない手順で再現するためのリポジトリです。
 
 `make install` で、次のセットアップをまとめて実行します。
 
 - Homebrew と Brewfile の適用
-- dotfiles のシンボリックリンク作成
+- dotfiles(.xxx ファイル) のシンボリックリンク作成
 - App Store アプリのインストール
-- macOS 設定の反映
+- MacOS 設定の反映
 
 ## Setup
 
@@ -46,11 +46,6 @@ make link
 make mas
 make macos
 ```
-
-## Docs
-
-- Terminal: [docs/terminal.md](docs/terminal.md)
-- Additional setup guides: [docs/setup](docs/setup)
 
 ## Repository layout
 
